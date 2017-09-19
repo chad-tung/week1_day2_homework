@@ -97,5 +97,5 @@ def sphere_vol(radius)
 end
 
 def f_convert(fahrenheit)
-  return (fahrenheit - 32) * (5.0/9.0)
+  return ((fahrenheit - 32) * (5.0/9.0)).round(1)
 end
