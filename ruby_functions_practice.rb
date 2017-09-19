@@ -93,7 +93,7 @@ def cube(length)
 end
 
 def sphere_vol(radius)
-  return ((4.0/3.0) * 3.1415 * (radius) **3).round(1)
+  return ((4.0/3.0) * Math::PI * (radius) ** 3).round(1)
 end
 
 def f_convert(fahrenheit)
