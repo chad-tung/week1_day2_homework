@@ -87,3 +87,15 @@ def number_to_short_month_name(month_no)
     "Dec"
   end
 end
+
+def cube(length)
+  return length **3
+end
+
+def sphere_vol(radius)
+  return ((4.0/3.0) * 3.1415 * (radius) **3).round(1)
+end
+
+def f_convert(fahrenheit)
+  return (fahrenheit - 32) * (5.0/9.0)
+end
